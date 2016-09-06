@@ -1,3 +1,9 @@
 [submodule "ansible-playbooks/roles/geerlingguy/firewall"]
 	path = ansible-playbooks/roles/geerlingguy/firewall
 	url = git@github.com:geerlingguy/ansible-role-firewall.git
+[submodule "ansible-playbooks/roles/geerlingguy/jenkins"]
+	path = ansible-playbooks/roles/geerlingguy/jenkins
+	url = git@github.com:geerlingguy/ansible-role-jenkins.git
+[submodule "ansible-playbooks/roles/geerlingguy.java"]
+	path = ansible-playbooks/roles/geerlingguy.java
+	url = git@github.com:geerlingguy/ansible-role-java.git

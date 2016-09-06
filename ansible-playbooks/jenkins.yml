@@ -14,12 +14,6 @@
       - "80"
       - "8080"
   roles:
-    - { role: geerlingguy/java }
+    - { role: geerlingguy.java }
     - { role: geerlingguy/jenkins }
-  # tasks:
-  #   - name: "TASK: Configuring the postgres REST API demo"
-  #     shell: id
-  #     become: yes
-  #   - include: tasks/generic/prereqs.yml
-  #   - include: tasks/postgres-api/software_deps.yml
-  #   - include: tasks/pyjojo/install.yml
+    - { role: geerlingguy/firewall }
